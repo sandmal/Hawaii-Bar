@@ -4,7 +4,7 @@
 - Unordered list
 - Each item has image and name
 - click on drink image for reciept
-- search for drinks
+- Search for drinks
 
 ## Resources
 
