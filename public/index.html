@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css"
+      media="all"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="section">
+      <h1>What alchohol you want?</h1>
+      <input type="text" id="search" placeholder="Search here..." />
+      <button id="drinkBtn">Drink</button>
+      <select id="drink">
+        <option disabled selected hidden>Select alchohol type</option>
+        <option value="1">Gin</option>
+        <option value="2">Vodka</option>
+        <option value="3">Rum</option>
+        <option value="4">Beer</option>
+        <option value="5">Wine</option>
+        <option value="6">Cider</option>
+        <option value="7">Brandy</option>
+        <option value="8">Whiskey</option>
+        <option value="9">Tequila</option>
+        <option value="10">Absinthe</option>
+      </select>
+    </div>
+    <div id="container"></div>
+    <footer class="footer">
+      <div class="footer-container">
+        <span>
+          <strong class="fas fa-glass-martini-alt">
+            <a href="https://www.thecocktaildb.com/api.php" target="_blank"
+              >Show TheCocktailDB API</a
+            >
+          </strong>
+        </span>
+        <span>
+          <strong class="fab fa-github">
+            <a href="https://github.com/sandmal/Hawaii-Bar" target="_blank"
+              >Show Hawaii-Bar Project</a
+            >
+          </strong>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

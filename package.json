@@ -1,0 +1,19 @@
+{
+  "name": "showdrinks",
+  "version": "1.0.0",
+  "description": "- List drinks based on gin as ingredient - Unordered list - Each item has image and name",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Cornelius",
+  "license": "ISC"
+}
